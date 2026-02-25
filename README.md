@@ -56,9 +56,9 @@
 |:--------|:---------|:---------|:-----|
 | Infinifi-protocol | Cantina | 1H | #4 |
 | primev-validator-registry | Cantina | 1H | #6 |
+| octant-v2-core | Cantina | 2M | #7 |
 | mystic-monorepo | Cantina | 7H, 5M | #9 |
 | pike-tapio-monrepo | Cantina | 1M | #9 |
-| octant-v2-core | Cantina | 2M | #11 |
 | IQ AI | Code4rena | 1M | #16 |
 | telcoin-network | Cantina | 3 findings | #29 |
 | Vechain — Stargate Hayabusa | Immunefi | 2 findings | #29 |
