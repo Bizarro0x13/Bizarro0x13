@@ -54,8 +54,8 @@
 
 | Contest | Platform | Findings | Rank |
 |:--------|:---------|:---------|:-----|
+| [primev-validator-registry](https://cantina.xyz/code/e92be0b9-b4f2-4bf2-9544-ae285fcfc02d/overview) | Cantina | 1H | #2 |
 | [Infinifi-protocol](https://cantina.xyz/code/2ac7f906-1661-47eb-bfd6-519f5db0d36b/overview) | Cantina | 1H | #4 |
-| [primev-validator-registry](https://cantina.xyz/code/e92be0b9-b4f2-4bf2-9544-ae285fcfc02d/overview) | Cantina | 1H | #6 |
 | [octant-v2-core](https://cantina.xyz/code/917d796b-48d0-41d0-bb40-be137b7d3db5/overview) | Cantina | 2M | #7 |
 | [mystic-monorepo](https://cantina.xyz/code/c160af78-28f8-47f7-9926-889b3864c6d8/overview) | Cantina | 7H, 5M | #9 |
 | [pike-tapio-monrepo](https://cantina.xyz/code/a0806644-7d91-457a-a08d-aee2db73f352/overview) | Cantina | 1M | #9 |
@@ -153,7 +153,7 @@
 | 2 | Liquidity Management | Liquidity | CodeHawks | Feb '25 | 2 findings | #44 |
 | 3 | Infinifi-protocol | Yield / DeFi | Cantina | Apr '25 | 1H | #4 |
 | 4 | mystic-monorepo | Cross-chain / DeFi | Cantina | May '25 | 7H, 5M | #9 |
-| 5 | primev-validator-registry | Infrastructure | Cantina | May '25 | 1H | #6 |
+| 5 | primev-validator-registry | Infrastructure | Cantina | May '25 | 1H | #2 |
 | 6 | DODO Cross-Chain DEX | DEX / Cross-chain | Sherlock | Jun '25 | 2 findings | #62 |
 | 7 | telcoin-network | Cross-chain | Cantina | Jun '25 | 3 findings | #29 |
 | 8 | DeBank | Portfolio / DeFi | Sherlock | Jul '25 | — | #107 |
