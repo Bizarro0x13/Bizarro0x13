@@ -42,9 +42,9 @@
   </tr>
   <tr>
     <td align="center"><code>20</code></td>
-    <td align="center"><code>42</code></td>
-    <td align="center"><code>17</code></td>
-    <td align="center"><code>14</code></td>
+    <td align="center"><code>44</code></td>
+    <td align="center"><code>18</code></td>
+    <td align="center"><code>15</code></td>
   </tr>
 </table>
 
@@ -69,100 +69,38 @@
 
 ---
 
-## 🔬 Notable Findings
 
-<details>
-<summary><b>🔴 High — Attacker can claim other user's refundAmount</b></summary>
+## 📄 Bug Bounty
 
-- **Protocol:** DODO Cross-Chain DEX
-- **Platform:** Sherlock
-- **Impact:** An attacker can drain refund amounts belonging to other users by exploiting improper access control on the refund claim flow
-- **Link:** [Report Link](#)
-</details>
-
-<details>
-<summary><b>🔴 High — Finding not yet public</b></summary>
-
-- **Protocol:** Infinifi-protocol
-- **Platform:** Cantina
-- **Impact:** Not yet disclosed
-- **Link:** TBD
-</details>
-
-<details>
-<summary><b>🔴 High — Finding not yet public</b></summary>
-
-- **Protocol:** primev-validator-registry
-- **Platform:** Cantina
-- **Impact:** Not yet disclosed
-- **Link:** TBD
-</details>
-
-<details>
-<summary><b>🟠 Medium — onchain calculation of the amountInMax can cause attacker to sandwich the transaction</b></summary>
-
-- **Protocol:** DODO Cross-Chain DEX
-- **Platform:** Sherlock
-- **Impact:** Attackers can profitably sandwich cross-chain swap transactions due to predictable on-chain `amountInMax` calculation, causing users to receive less than expected
-- **Link:** [Report Link](#)
-</details>
-
-<details>
-<summary><b>🟠 Medium — Deposits on long one leverage vault don't actually finalize the flow, leading to a Denial of Service (DoS)</b></summary>
-
-- **Protocol:** Liquidity Management
-- **Platform:** CodeHawks
-- **Impact:** Users attempting to deposit into the long-one leverage vault encounter a permanent DoS, making the vault unusable
-- **Link:** [Report Link](#)
-</details>
-
-<details>
-<summary><b>🟠 Medium — Incorrect Token Price Validation in KeeperProxy</b></summary>
-
-- **Protocol:** Liquidity Management
-- **Platform:** CodeHawks
-- **Impact:** Improper price validation in the KeeperProxy contract allows operations to proceed with stale or manipulated prices
-- **Link:** [Report Link](#)
-</details>
-
-<details>
-<summary><b>🟠 Medium — Incorrect Max Transfer Size Check in sendMsg Function</b></summary>
-
-- **Protocol:** Malda
-- **Platform:** Sherlock
-- **Impact:** The max transfer size check in `sendMsg` is incorrectly implemented, allowing messages that exceed the intended size limit to be sent cross-chain
-- **Link:** [Report Link](#)
-</details>
-
-<details>
-<summary><b>🟠 Medium — Ineffective proposal threshold validation allows setting arbitrary high values</b></summary>
-
-- **Protocol:** IQ AI
-- **Platform:** Code4rena
-- **Impact:** The proposal threshold can be set to arbitrarily high values due to flawed validation, effectively preventing any new governance proposals from being submitted
-- **Link:** [Report Link](#)
-</details>
+| Report | severity | Link |
+|:--------|:---------|:---------|
+| Division by Zero in Funding Socialization Causes Debt Transfer to Future Traders | High | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#iq-ai--bug-reports) |
+| Multi-Execution Fee Miscalculation Due to Using Current Price for Historical Volume Reconstruction | Medium | [here]() |
+| Empty `validateAccountHealth()` Stub in OrderProcessor Bypasses Post-Trade Margin Enforcement | High | [here]() |
 
 ---
+
+
 
 ## 📋 Full Audit Portfolio
 
 | # | Protocol | Type | Platform | Date | Findings | Rank |
 |:--|:---------|:-----|:---------|:-----|:---------|:-----|
-| 1 | IQ AI | AI / DeFi | Code4rena | Jan '25 | 1M | #16 |
-| 2 | Liquidity Management | Liquidity | CodeHawks | Feb '25 | 2 findings | #44 |
-| 3 | Infinifi-protocol | Yield / DeFi | Cantina | Apr '25 | 1H | #4 |
-| 4 | mystic-monorepo | Cross-chain / DeFi | Cantina | May '25 | 7H, 5M | #9 |
-| 5 | primev-validator-registry | Infrastructure | Cantina | May '25 | 1H | #2 |
-| 6 | DODO Cross-Chain DEX | DEX / Cross-chain | Sherlock | Jun '25 | 2 findings | #62 |
-| 7 | telcoin-network | Cross-chain | Cantina | Jun '25 | 3 findings | #29 |
-| 8 | DeBank | Portfolio / DeFi | Sherlock | Jul '25 | — | #107 |
-| 9 | Malda | Lending | Sherlock | Jul '25 | 1 finding | #46 |
-| 10 | pike-tapio-monrepo | Bridge / Stablecoin | Cantina | Jul '25 | 1M | #9 |
-| 11 | succinct-network | ZK / Infrastructure | Cantina | Jul '25 | 1 finding | #31 |
-| 12 | octant-v2-core | Governance / DeFi | Cantina | Sep '25 | 2M | #11 |
-| 13 | Alchemix V3 | Yield / DeFi | Immunefi | Oct '25 | 3 findings | #121 |
-| 14 | Vechain — Stargate Hayabusa | Bridge / Cross-chain | Immunefi | Nov '25 | 2 findings | #29 |
+| 1 | Vechain — Stargate Hayabusa | Bridge / Cross-chain | Immunefi | Nov '25 | 2 findings | #29 |
+| 2 | IQ AI | AI / DeFi | Code4rena | Jan '25 | 1M | #16 |
+| 3 | Liquidity Management | Liquidity | CodeHawks | Feb '25 | 2 findings | #44 |
+| 4 | Infinifi-protocol | Yield / DeFi | Cantina | Apr '25 | 1H | #4 |
+| 5 | mystic-monorepo | Cross-chain / DeFi | Cantina | May '25 | 7H, 5M | #9 |
+| 6 | primev-validator-registry | Infrastructure | Cantina | May '25 | 1H | #2 |
+| 7 | DODO Cross-Chain DEX | DEX / Cross-chain | Sherlock | Jun '25 | 2 findings | #62 |
+| 8 | telcoin-network | Cross-chain | Cantina | Jun '25 | 3 findings | #29 |
+| 9 | DeBank | Portfolio / DeFi | Sherlock | Jul '25 | — | #107 |
+| 10 | Malda | Lending | Sherlock | Jul '25 | 1 finding | #46 |
+| 11 | pike-tapio-monrepo | Bridge / Stablecoin | Cantina | Jul '25 | 1M | #9 |
+| 12 | succinct-network | ZK / Infrastructure | Cantina | Jul '25 | 1 finding | #31 |
+| 13 | octant-v2-core | Governance / DeFi | Cantina | Sep '25 | 2M | #11 |
+| 14 | Alchemix V3 | Yield / DeFi | Immunefi | Oct '25 | 3 findings | #121 |
+
 
 ---
 
