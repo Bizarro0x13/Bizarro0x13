@@ -74,9 +74,9 @@
 
 | Report | severity | Link |
 |:--------|:---------|:---------|
-| Division by Zero in Funding Socialization Causes Debt Transfer to Future Traders | High | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#iq-ai--bug-reports) |
-| Multi-Execution Fee Miscalculation Due to Using Current Price for Historical Volume Reconstruction | Medium | [here]() |
-| Empty `validateAccountHealth()` Stub in OrderProcessor Bypasses Post-Trade Margin Enforcement | High | [here]() |
+| Division by Zero in Funding Socialization Causes Debt Transfer to Future Traders | High | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#division-by-zero-in-funding-socialization-causes-debt-transfer-to-future-traders) |
+| Multi-Execution Fee Miscalculation Due to Using Current Price for Historical Volume Reconstruction | Medium | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#attack-scenario-order-initiator-underpays-fees-price-falls-between-executions) |
+| Empty `validateAccountHealth()` Stub in OrderProcessor Bypasses Post-Trade Margin Enforcement | High | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#empty-validateaccounthealth-stub-in-orderprocessor-bypasses-post-trade-margin-enforcement) |
 
 ---
 
