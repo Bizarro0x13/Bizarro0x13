@@ -23,30 +23,24 @@
 - 🛠️ Proficient in **Solidity**, **Foundry**, **Hardhat**, **Slither**, **Aderyn**, and manual review
 - 📖 Constantly exploring new attack vectors and EVM internals
 
+
 ---
 
-## 📊 Audit Stats at a Glance
+## 🔐 Private Audits
 
-<table align="center">
-  <tr>
-    <td align="center"><h3>🏆</h3></td>
-    <td align="center"><h3>🐛</h3></td>
-    <td align="center"><h3>🔴</h3></td>
-    <td align="center"><h3>🟠</h3></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Contests</b></td>
-    <td align="center"><b>Total Findings</b></td>
-    <td align="center"><b>Highs</b></td>
-    <td align="center"><b>Mediums</b></td>
-  </tr>
-  <tr>
-    <td align="center"><code>20</code></td>
-    <td align="center"><code>44</code></td>
-    <td align="center"><code>18</code></td>
-    <td align="center"><code>15</code></td>
-  </tr>
-</table>
+| # | Protocol | Firm | Type | Date | Findings | Report |
+|:--|:---------|:-----|:-----|:-----|:---------|:-------|
+| 1 | Depth | Shieldify | Vault,ERC-721,ERC-5192 | April | 2H,5M,5L | 📄 |
+
+---
+
+## 📄 Bug Bounty
+
+| Report | severity | Link |
+|:--------|:---------|:---------|
+| Division by Zero in Funding Socialization Causes Debt Transfer to Future Traders | High | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#division-by-zero-in-funding-socialization-causes-debt-transfer-to-future-traders) |
+| Multi-Execution Fee Miscalculation Due to Using Current Price for Historical Volume Reconstruction | Medium | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#attack-scenario-order-initiator-underpays-fees-price-falls-between-executions) |
+| Empty `validateAccountHealth()` Stub in OrderProcessor Bypasses Post-Trade Margin Enforcement | High | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#empty-validateaccounthealth-stub-in-orderprocessor-bypasses-post-trade-margin-enforcement) |
 
 ---
 
@@ -66,41 +60,6 @@
 | [Liquidity Management](https://codehawks.cyfrin.io/contests/cm6q1gbpq0000va6agddmgfn6) | CodeHawks | 2 findings | #44 |
 | [Malda](https://audits.sherlock.xyz/contests/1029) | Sherlock | 1 finding | #46 |
 | [DODO Cross-Chain DEX](https://audits.sherlock.xyz/contests/991) | Sherlock | 2 findings | #62 |
-
----
-
-
-## 📄 Bug Bounty
-
-| Report | severity | Link |
-|:--------|:---------|:---------|
-| Division by Zero in Funding Socialization Causes Debt Transfer to Future Traders | High | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#division-by-zero-in-funding-socialization-causes-debt-transfer-to-future-traders) |
-| Multi-Execution Fee Miscalculation Due to Using Current Price for Historical Volume Reconstruction | Medium | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#attack-scenario-order-initiator-underpays-fees-price-falls-between-executions) |
-| Empty `validateAccountHealth()` Stub in OrderProcessor Bypasses Post-Trade Margin Enforcement | High | [here](https://github.com/Bizarro0x13/Bizarro0x13/blob/main/Reports/BugBounty.md#empty-validateaccounthealth-stub-in-orderprocessor-bypasses-post-trade-margin-enforcement) |
-
----
-
-
-
-## 📋 Full Audit Portfolio
-
-| # | Protocol | Type | Platform | Date | Findings | Rank |
-|:--|:---------|:-----|:---------|:-----|:---------|:-----|
-| 1 | Vechain — Stargate Hayabusa | Bridge / Cross-chain | Immunefi | Nov '25 | 2 findings | #29 |
-| 2 | IQ AI | AI / DeFi | Code4rena | Jan '25 | 1M | #16 |
-| 3 | Liquidity Management | Liquidity | CodeHawks | Feb '25 | 2 findings | #44 |
-| 4 | Infinifi-protocol | Yield / DeFi | Cantina | Apr '25 | 1H | #4 |
-| 5 | mystic-monorepo | Cross-chain / DeFi | Cantina | May '25 | 7H, 5M | #9 |
-| 6 | primev-validator-registry | Infrastructure | Cantina | May '25 | 1H | #2 |
-| 7 | DODO Cross-Chain DEX | DEX / Cross-chain | Sherlock | Jun '25 | 2 findings | #62 |
-| 8 | telcoin-network | Cross-chain | Cantina | Jun '25 | 3 findings | #29 |
-| 9 | DeBank | Portfolio / DeFi | Sherlock | Jul '25 | — | #107 |
-| 10 | Malda | Lending | Sherlock | Jul '25 | 1 finding | #46 |
-| 11 | pike-tapio-monrepo | Bridge / Stablecoin | Cantina | Jul '25 | 1M | #9 |
-| 12 | succinct-network | ZK / Infrastructure | Cantina | Jul '25 | 1 finding | #31 |
-| 13 | octant-v2-core | Governance / DeFi | Cantina | Sep '25 | 2M | #11 |
-| 14 | Alchemix V3 | Yield / DeFi | Immunefi | Oct '25 | 3 findings | #121 |
-
 
 ---
 
