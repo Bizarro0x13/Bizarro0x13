@@ -6,16 +6,6 @@ https://cantina.xyz/code/2ac7f906-1661-47eb-bfd6-519f5db0d36b/overview
 
 ## Metadata
 
-- **Number:** #308
-- **Severity:** High
-- **Status:** Confirmed
-- **Likelihood:** High
-- **Impact:** Medium
-- **Created by:** Bizarro
-- **Created at:** April 24, 2025 at 10:36 PM
-- **Last updated:** May 13, 2025 at 8:52 PM
-- **Reward:** 1782.31
-
 ## Description
 
 ## Summary
