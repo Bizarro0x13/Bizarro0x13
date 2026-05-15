@@ -28,9 +28,9 @@
 
 ## 🔐 Private Audits
 
-| # | Protocol | Firm | Type | Date | Findings | Report |
-|:--|:---------|:-----|:-----|:-----|:---------|:-------|
-| 1 | Depth | Shieldify | Vault,ERC-721,ERC-5192 | April | 2H,5M,5L | 📄 |
+| # | Protocol | Firm | Type | Date | Report |
+|:--|:---------|:-----|:-----|:-----|:-------|
+| 1 | Depth | Shieldify | Vault,ERC-721,ERC-5192 | April | [📄](https://github.com/shieldify-security/audits-portfolio/blob/main/reports/DEPTHProtocol-Security-Review.pdf) |
 
 ---
 
